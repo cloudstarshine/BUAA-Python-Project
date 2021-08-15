@@ -1,0 +1,25 @@
+Python 3.x 版本的保留字总数是,27,29,33,16,C
+‬以下选项中，不是 Python 语言保留字的是,while,pass,do,except,C
+‬关于 Python 程序格式框架，以下选项中描述错误的是,Python 语言不采用严格的“缩进”来表明程序的格式框架,Python 单层缩进代码属于之前最邻近的一行非缩进代码，多层缩进代码根据缩进关系决定所属范围,Python 语言的缩进可以采用 Tab 键实现,判断、循环、函数等语法形式能够通过缩进包含一批 Python 代码，进而表达对应的语义,A
+下列选项中不符合Python语言变量命名规则的是,TempStr,I,3_1,_AI,C
+‬以下选项中，关于Python字符串的描述错误的是,Python语言中，字符串是用一对双引号""或者一对单引号 '' 括起来的零个或者多个字符,字符串包括两种序号体系：正向递增和反向递减,字符串是字符的序列，可以按照单个字符或者字符片段进行索引,Python字符串提供区间访问方式，采用[N:M]格式，表示字符串中从N到M的索引子字符串（包含N和M）,D
+‬给出如下代码：TempStr ="Hello World" 可以输出“World”子串的是,print(TempStr[–5:0]) ,print(TempStr[–5:]),print(TempStr[–5: –1]),print(TempStr[–4: –1]),B
+关于赋值语句，以下选项中描述错误的是,"a,b = b,a 可以实现a 和 b值的互换","a,b,c = b,c,a 是不合法的",在Python语言中，“=”表示赋值，即将“=”右侧的计算结果赋值给左侧变量，包含“=”的语句称为赋值语句,赋值与二元操作符可以组合，例如&=,B
+‬关于eval函数，以下选项中描述错误的是,"eval函数的定义为：eval(source, globals=None, locals=None, /)",执行“>>> eval("Hello")”和执行“>>> eval("'Hello'")”得到相同的结果,eval函数的作用是将输入的字符串转为Python语句，并执行该语句,如果用户希望输入一个数字，并用程序对这个数字进行计算，可以采用eval(input(<输入提示字符串>))组合,B
+‬关于Python语言的注释，以下选项中描述错误的是,Python语言有两种注释方式：单行注释和多行注释,Python语言的单行注释以#开头,Python语言的多行注释以'''（三个单引号）开头和结尾,Python语言的单行注释以单引号 ' 开头,D
+‬关于Python语言的特点，以下选项中描述错误的是,Python语言是脚本语言,Python语言是非开源语言,Python语言是跨平台语言,Python语言是多模型语言,B
+‬关于import引用，以下选项中描述错误的是,可以使用from turtle import setup 引入turtle库,使用import turtle as t引入turtle库，取别名为t,使用import turtle引入turtle库,import保留字用于导入模块或者模块中的对象,A
+下面代码 print（0.1+0.2==0.3）的输出结果是,FALSE,TRUE,FALSE,TRUE,C
+"下面代码 print(round(0.1 + 0.2,1) == 0.3) 的输出结果是",0,1,FALSE,TRUE,D
+在一行上写多条Python语句使用的符号是,点号,冒号,分号,逗号,C
+‬给出如下代码: s = 'Python is beautiful!' 可以输出“python”的是,print(s[0:6].lower()),print(s[:–14]),print(s[0:6]),print(s[–21:–14].lower),A
+‬给出如下代码: s = 'Python is Open Source!'   print(s[0:].upper()) 上述代码的输出结果是, PYTHON,PYTHON IS OPEN SOURCE,Python is Open Source!,PYTHON IS OPEN SOURCE!,D
+‬以下选项中，符合Python语言变量命名规则的是,Templist,!1,(VR) ,5_1,A
+‬下列选项中可以准确查看Python代码的语言版本（3.5.3）的是,">>> import sys				 >>>sys.version	",>>> import sys >>> sys.exc_info(),>>> import sys   >>> sys.version—info,>>> import sys  >>> sys.path,A
+‬下列选项中可以获取Python整数类型帮助的是,>>> help(float),>>> dir(str),>>> help(int),>>> dir(int),C
+给出如下代码：>>> x = 3.14  >>> eval('x + 10')  上述代码的输出结果是,"TypeError: must be str, not int",系统 错误,13.14,3.141,C
+Python语言的主网站网址是,https://www.python123.org/,https://www.python.org/,https://www.python123.io/,https://pypi.python.org/pypi,B
+‬下列Python保留字中，用于异常处理结构中用来捕获特定类型异常的是,def,except,"while	",pass,B
+关于Python注释，以下选项中描述错误的是,Python注释语句不被解释器过滤掉，也不被执行,注释可用于标明作者和版权信息,注释可以辅助程序调试,注释用于解释代码原理或者用途,A
+‬以下选项中，不是Python数据类型的是,实数,列表,整数,字符串,A
+‬下列Python保留字中，不用于表示分支结构的是,elif,"in	","if	",else,B
